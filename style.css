@@ -46,6 +46,11 @@ a {
 
 a:hover {
   text-decoration: underline;
+  color: #000000;
+}
+
+h3:hover {
+  color: #000000;
 }
 
 .container {
@@ -62,7 +67,18 @@ a:hover {
   padding: 10px;
   padding-top: 0px;
   padding-bottom: 0px;
+}
 
+.button {
+  width: 400px;
+  margin: 0px auto;
+  border: 0px solid #cb9800;
+  background-color: #cb9800;
+  border-radius: 20px;
+  /*padding: 10px, 60px;*/
+  padding: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .list-inline > li {
